@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Website</title>
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightslategray;
+}
+header {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.charan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding:10px
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media  all and (max-width: 600px){
+    /* Styles for screens smaller than 600px */
+    .charan {
+        padding: 10px;
+    }
+}
+
+</style>
+<body>
+
+    
+
+    <header>
+        <h1>Allu Arjun</h1>
+    </header>
+<p>Allu Arjun (born 8 April 1982) is an Indian actor known for his works mainly in Telugu cinema. One of the highest paid actors in India,Allu Arjun is also known for his dancing skills. He is a recipient of several awards including a National Film Award, six Filmfare Awards and three Nandi Awards. He has appeared in Forbes India's Celebrity 100 list since 2014. He is popularly referred to as "Stylish Star".</p>
+
+  
+    <section class="charan">
+        <img src="./aa1.webp"alt="" width="400" height="">
+        
+        <img src="./aa2.jpg" alt="" width="500" height="">
+        <img src="./aa3.jpg" alt="" width="500" height="">
+        <img src="./aa4.jpg"alt="" width="500" height="">
+        <img src="./aa5.jpg"alt="" width="600" height="">
+        <img src="./aa6.jpg"alt="" width="500" height="">
+        <!-- Add more images as needed -->
+    </section>
+
+    <footer>
+        <p>@Charan</p>
+    </footer>
+</body>
+</html>

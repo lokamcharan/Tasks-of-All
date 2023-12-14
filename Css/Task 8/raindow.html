@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <style>
+      
+      .spin {
+        border: 2px solid black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .spin {
+        background-image: conic-gradient(
+          red,
+          green,
+          yellow,
+          violet,
+          blue,
+          orange
+        );
+      }
+      .spin {
+        position: relative;
+        bottom: 580px;
+        left: 655px;
+        animation-iteration-count: infinite;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        width: 100px;height: 100px;
+        
+      }
+      .whe {
+        border: 2px solid black;
+        width: 5px;
+        height: 150px;
+        position: relative;
+        bottom: 580px;
+        left: 700px;
+      }
+      .whe {
+        animation-iteration-count: infinite;
+        animation-name: exa;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      }
+      .whe {
+        background-image: linear-gradient(to right, black, black);
+      }
+
+      @keyframes example {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      div img{
+        text-align: center;
+        position: relative;
+        top: 200px;
+        left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <img src="./cycle.jpg" width="px">
+        <br>
+        <br>
+    </div>
+    <div class="spin"></div>
+    <div class="whe"></div>     
+  </body>
+</html>
